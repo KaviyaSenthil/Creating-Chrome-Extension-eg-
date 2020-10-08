@@ -1,0 +1,34 @@
+{
+
+
+
+"name": "Backgrounds",
+
+"version": "1.0",
+
+"manifest_version": 2,
+
+
+
+"description": "Because Full Stack should be everywhere!",
+
+"icons":{
+
+"128": "icon.png"
+},
+
+
+"browser_action": {
+
+"default title": "Always have the Full Stack team with you <3",
+
+"default_popup": "popup.html"
+},
+
+
+"permissions":[
+
+"http://*/", "https://*/*"
+]
+
+}
